@@ -1,25 +1,25 @@
 # Java Refactoring Demo with Codium.ai
+## ****** DISCLAIMER ****** 
+The purpose of this project is to demonstrate significant refactoring needs. It is used in presentations to illustrate 
+the effectiveness of codium.ai as a collaborative tool in addressing complex Java projects.
 
-## Overview
+## Project Summary
+This project is a practical example used to demonstrate the Codium.ai plugin's capabilities in refactoring Java code. 
+The objective is to show how Codium.ai can be a valuable tool for developers to enhance code quality, boost performance, 
+and simplify the structure of Java applications.
 
-This Java application project serves as a live coding demonstration for showcasing the capabilities of the Codium.ai
-plugin in refactoring Java codebases. The aim is to illustrate how
-Codium.ai can assist developers in improving code quality, enhancing performance, and modularizing their Java
-applications.
+## Key Features
 
-## Features
+- **Code Quality Enhancement:** Understand how Codium.ai detects and resolves code issues, improves readability, 
+- and applies best practices in a Java project environment.
 
-- **Code Quality Enhancement:** Learn how Codium.ai identifies and helps eliminate code smells, enhances code
-  readability, and enforces best practices within a Spring Boot application.
+- **Performance Optimization:** Learn how Codium.ai identifies and suggests solutions for performance issues, 
+- thereby improving the speed and efficiency of your application.
 
-- **Performance Optimization:** Discover how Codium.ai can pinpoint performance bottlenecks and provide recommendations
-  to enhance your application's speed and efficiency.
+- **Modularization:** Discover the role of Codium.ai in transforming a monolithic structure into more modular, 
+- maintainable, and reusable code segments.
 
-- **Modularization:** See how Codium.ai aids in breaking down a monolithic codebase into more manageable,
-  loosely-coupled modules, promoting code reusability and maintainability.
-
-## Usage
-
+## How to Use
 1. Clone this repository to your local development environment.
 
    ```shell
