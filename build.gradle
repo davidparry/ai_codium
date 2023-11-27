@@ -1,0 +1,31 @@
+plugins {
+    id 'java'
+    id 'groovy'
+}
+
+group = 'org.example'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.theokanning.openai-gpt3-java:api:0.18.0'
+    implementation 'com.theokanning.openai-gpt3-java:client:0.18.0'
+    implementation 'com.theokanning.openai-gpt3-java:service:0.18.0'
+    implementation 'com.google.code.gson:gson:2.10.1'
+    implementation 'com.knuddels:jtokkit:0.6.1'
+    implementation 'org.slf4j:slf4j-api:1.7.30' // SLF4J API
+    implementation 'ch.qos.logback:logback-classic:1.2.3' // Logback Classic
+    implementation 'org.mongodb:mongo-java-driver:3.12.14'
+    implementation 'org.jsoup:jsoup:1.16.2'
+    implementation 'com.squareup.okhttp3:logging-interceptor:4.9.0' // Use the latest version
+
+    testImplementation('org.spockframework:spock-core:2.0-groovy-3.0')
+
+}
+
+test {
+    useJUnitPlatform()
+}
