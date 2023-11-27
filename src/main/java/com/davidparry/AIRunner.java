@@ -47,25 +47,11 @@ public class AIRunner implements SystemMessages {
     private static final Logger logger = LoggerFactory.getLogger(AIRunner.class);
 
     public final String MONGO_URI;
-    private final String KEY;
-
-    private final String ORG_ID;
     private final OpenAiService OPENAI_SERVICE;
 
     public AIRunner(String key, String mongoUri, String orgId) {
-        KEY = key;
         MONGO_URI = mongoUri;
-        ORG_ID = orgId;
         OPENAI_SERVICE = aiService(key, orgId);
-    }
-
-    public static void main(String[] args) {
-        String question = "write a brief description of what AI is?";
-        AIRunner main =
-                new AIRunner(System.getenv("OPEN_AI"), System.getenv("MONGO_URL"), System.getenv("ORG_ID"));
-        ParsedChatResponse r = main.search(question);
-
-        logger.debug("Response {}", r.json().aiResponse());
     }
 
     public ParsedChatResponse search(String question) {
